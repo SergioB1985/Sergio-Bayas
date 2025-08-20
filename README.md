@@ -1,4 +1,4 @@
-<h1>FUNDAMENTOS DE PROGRAMACION -- UEA-L-UFB-026 - 2025</h1>
+<h1>FUNDAMENTOS DE PROGRAMACION -- UEA-L-UFB-026-C - 2025</h1>
 
 <h3>Repositorio de código fuente utilizado en la Asignatura Fundamentos de Programación</h3>
 
