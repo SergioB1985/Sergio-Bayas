@@ -1,11 +1,8 @@
 #FUNCIÓN QUE ORDENA UNA FILA ESPECIFICA DENTRO DE UNA MATRIZ
 def bubble_sort(fila_extraida):
-    n = len(fila_extraida)
-    # Recorre la lista para asegurar que todos los elementos estén ordenados
-    for i in range(n):
-        # La última i elementos ya están en su lugar
-        for j in range(0, n - i - 1):
-            # Recorre la lista de 0 a n-i-1
+    n = len(fila_extraida) # Recorre la lista para asegurar que todos los elementos estén ordenados
+    for i in range(n):  # La última i elementos ya están en su lugar
+        for j in range(0, n - i - 1):  # Recorre la lista de 0 a n-i-1
             # Intercambia si el elemento encontrado es mayor que el siguiente elemento
             if fila_extraida[j] > fila_extraida[j + 1]:
                 fila_extraida[j], fila_extraida[j + 1] = fila_extraida[j + 1], fila_extraida[j] # Intercambio
@@ -34,4 +31,4 @@ print("REALIZADO POR: SERGIO HUMBERTO BAYAS ")
 print("GRACIAS POR USAR MI PROGRAMA VUELVA PRONTO ")
 
 
-# CAMBIO TTTTT
+# SERGIO HUMBERTO BAYAS PAREDES
