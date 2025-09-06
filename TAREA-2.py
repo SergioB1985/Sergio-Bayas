@@ -25,10 +25,7 @@ fila = int(input("Tomando en cuanta que las filas va desde el 0, 1, 2, ¿cual fi
 fila_extraida = matriz_copia [fila]
 fila_ordenada = bubble_sort (fila_extraida)
 matriz_copia[fila] = fila_ordenada
-print("Matriz Original:", matriz_org)
 print(f"Matriz ordenana:", matriz_copia)
 print("REALIZADO POR: SERGIO HUMBERTO BAYAS ")
 print("GRACIAS POR USAR MI PROGRAMA VUELVA PRONTO ")
-
-
 # SERGIO HUMBERTO BAYAS PAREDES
